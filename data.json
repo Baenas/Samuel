@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "pregunta": "Fecha de lanzamiento del primer zelda",
+        "ok": "1986",
+        "oktype": "number",
+        "pos": {
+            "p1": 1,
+            "p1_2": 8,
+            "p2": 9,
+            "p3": 6
+        }
+    },
+    {
+        "id": 1,
+        "pregunta": "Creadores del la saga Zelda",
+        "ok": "nintendo",
+        "oktype": "text",
+        "pos": {
+            "p1": "Ni",
+            "p1_2": "o",
+            "p2": "Nte",
+            "p3": "Nd"
+        }
+    }
+]

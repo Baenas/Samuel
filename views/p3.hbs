@@ -1,0 +1,19 @@
+{{#each objectdata.filtered}}
+<div class="content">
+
+    <h1 id="p1Name" class=" titletopmain center_text">Jugador 3 | Pregunta <span
+            id="preguntaid">{{objectdata.datainfo.actual}}</span>
+    </h1>
+    <div class="contenedor1">
+        <div class="tools">
+            <div id="preg_1" class="center_text itm_2">{{this.pregunta}}</div>
+            <div id="itm_1_1" class="center_text itm_1">{{this.pos.p3}}</div>
+            <div id="itm_1_2" class="center_text itm_1">{{this.pos.p3_2}}</div>
+        </div>
+
+
+    </div>
+
+    {{/each}}
+    <script src="../js/global.js"></script>
+    {{!-- <script src="../js/test3.js"></script> --}}

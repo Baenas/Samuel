@@ -1,0 +1,31 @@
+{{#each objectdata.filtered }}
+<div class="content">
+
+    <h1 id="p1Name" class=" titletopmain center_text"> <span>{{this.id}}</span> | Pregunta
+    </h1>
+    <div class="contenedor1">
+        <div class="tools">
+            <div id="preg_1" class="center_text itm_2">{{this.pregunta}}</div>
+            <div id="respuestanow" hidden class="center_text itm_2">{{this.ok}}</div>
+            <div id="itm_1_1" class="center_text itm_1">{{this.pos.p1}}</div>
+            <div id="itm_1_2" class="center_text itm_1">{{this.pos.p1_2}}</div>
+        </div>
+
+        <div class="respuesta">
+            <h3 class="center_text"> Tu respuesta </h3>
+            <div id="contentrespuesta" class="center_text contentrespuesta">
+                {{!-- {{#each this.pos}} --}}
+
+                <input class="resinput" value="" id="res{{@index}}" type="{{this.oktype}}">
+                {{!-- {{/each}} --}}
+
+            </div>
+            <div id="validar" class="center_text ">
+                <button id="enviarinfo" class="center_text btn_res" type="submit">Enviar</button> </div>
+        </div>
+    </div>
+
+    {{/each}}
+
+    <script src="../js/global.js"></script>
+    {{!-- <script src="../js/test1.js"></script> --}}

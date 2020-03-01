@@ -1,0 +1,21 @@
+<div class="content">
+
+    <h1 id="p0Name" class=" titletopmain center_text"> <span id="preguntaid">{{id}}</span>
+    </h1>
+    <div class="contenedor1">
+        <ul>
+            {{#each dataall}}
+            <li>{{this.pregunta}}
+
+
+                <span id="respuesta{{@index}}"> <b> {{this.ok}}</b></span></li>
+            {{/each}}
+        </ul>
+
+    </div>
+
+
+</div>
+
+{{!-- <script src="../js/global.js"></script> --}}
+{{!-- <script src="../js/espectador.js"></script> --}}

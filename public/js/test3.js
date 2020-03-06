@@ -1,13 +1,15 @@
-function changeletter(player, letter, obj) {
-  player.letra = letter;
-  document.getElementById(obj).innerHTML = player.letra;
+document.getElementById('enviarinfo3').addEventListener('click', () => {
+  // let total = resval1 + resval2 + resval3 + resval4
+  let cualestamos = 0
+  let total = document.getElementById(`res3`).value;
+  let totalget = document.getElementById('respuestanow').innerHTML;
+  if (total == totalget) {
 
-}
+    window.location = 'next3';
 
-function show(id) {
-  changeletter(Player3, lista[id].pos.p3, 'itm_3_1');
-  document.getElementById('preg_3').innerHTML = lista[id].pregunta;
 
-}
 
-show(track[0].actual)
+
+
+  }
+})

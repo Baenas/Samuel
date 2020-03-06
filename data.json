@@ -1,26 +1,146 @@
 [
     {
-        "id": 0,
+        "id": 1,
         "pregunta": "Fecha de lanzamiento del primer zelda",
         "ok": "1986",
         "oktype": "number",
         "pos": {
-            "p1": 1,
-            "p1_2": 8,
-            "p2": 9,
-            "p3": 6
+            "p1": 1986,
+            "p2": 2015,
+            "p3": 1900,
+            "p4": 2000
         }
     },
     {
-        "id": 1,
+        "id": 0,
         "pregunta": "Creadores del la saga Zelda",
-        "ok": "nintendo",
+        "ok": "Nintendo",
         "oktype": "text",
         "pos": {
-            "p1": "Ni",
-            "p1_2": "o",
-            "p2": "Nte",
-            "p3": "Nd"
+            "p1": "Nintendo",
+            "p2": "Sony",
+            "p3": "Samuel Games Studio",
+            "p4": "Best Gaming"
+        }
+    },
+    {
+        "id": 2,
+        "pregunta": "Zelda fue creado por : ?",
+        "ok": "Japoneses",
+        "oktype": "text",
+        "pos": {
+            "p1": "Españoles",
+            "p2": "Japoneses",
+            "p3": "Peruanos",
+            "p4": "Extraterrestres"
+        }
+    },
+    {
+        "id": 3,
+        "pregunta": "Que hace un creeper",
+        "ok": "explotar",
+        "oktype": "text",
+        "pos": {
+            "p1": "correr",
+            "p2": "explotar",
+            "p3": "gritar",
+            "p4": "comer galletas"
+        }
+    },
+    {
+        "id": 4,
+        "pregunta": "Que lanza el esqueleto de minecraft con su arma",
+        "ok": "flechas",
+        "oktype": "text",
+        "pos": {
+            "p1": "flechas",
+            "p2": "pelotas de goma",
+            "p3": "piedras",
+            "p4": "moscas"
+        }
+    },
+    {
+        "id": 5,
+        "pregunta": "Los aldeanos pueden.....",
+        "ok": "intercambiar objetos",
+        "oktype": "text",
+        "pos": {
+            "p1": "abrazarte",
+            "p2": "morderte",
+            "p3": "intercambiar objetos",
+            "p4": "comerte"
+        }
+    },
+    {
+        "id": 6,
+        "pregunta": "En minecraft, las plantas se usan para crear ....",
+        "ok": "tintas de colores",
+        "oktype": "text",
+        "pos": {
+            "p1": "lentejas",
+            "p2": "bombillas",
+            "p3": "tintas de colores",
+            "p4": "puertas"
+        }
+    },
+    {
+        "id": 7,
+        "pregunta": "Colores de la vestimenta de MARIO",
+        "ok": "Blanca azul roja",
+        "oktype": "text",
+        "pos": {
+            "p1": "Blanca verde roja",
+            "p2": "Blanca rosa roja",
+            "p3": "Roja Blanca negra",
+            "p4": "Blanca azul roja"
+        }
+    },
+    {
+        "id": 8,
+        "pregunta": "Para ganar puntos mario debe recojer.....",
+        "ok": "Monedas",
+        "oktype": "text",
+        "pos": {
+            "p1": "Chocolatinas",
+            "p2": "Billetes",
+            "p3": "Monedas",
+            "p4": "Mandarinas"
+        }
+    },
+    {
+        "id": 9,
+        "pregunta": "Color camiseta Luigi",
+        "ok": "Verde",
+        "oktype": "text",
+        "pos": {
+            "p1": "Verde",
+            "p2": "Roja",
+            "p3": "Blanca",
+            "p4": "Blanca"
+        }
+    },
+    {
+        "id": 10,
+        "pregunta": "Como se llama el mundo ficticio de La leyenda de zelda",
+        "ok": "Hyrule",
+        "oktype": "text",
+        "pos": {
+            "p1": "Hyrule",
+            "p2": "La comarca",
+            "p3": "El valle de Arryn",
+            "p4": "La Gran Manzana"
+        }
+    },
+    {
+        "id": 11,
+        "pregunta": "Como se llama la planta que sale de una tuberia para derrotar a Mario",
+        "ok": "Planta Piraña",
+        "oktype": "text",
+        "pos": {
+            "p1": "Planta Verde",
+            "p2": "Planta Piraña",
+            "p3": "Planta Mosquito",
+            "p4": "Planta geraneo"
         }
     }
 ]

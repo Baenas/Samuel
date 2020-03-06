@@ -1,5 +1,11 @@
 {
-    "actual": 0,
+    "actualp1": 0,
+    "actualp2": 1,
+    "actualp3": 2,
     "aciertos": 0,
-    "update": 0
+    "update": 0,
+    "res1": 4,
+    "res2": 1,
+    "res3": 4,
+    "res4": 2
 }

@@ -1,24 +1,16 @@
-function changeletter(player, letter, obj) {
-  player.letra = letter;
-  document.getElementById(obj).innerHTML = player.letra;
-}
-let idnumber = document.getElementById('preguntaid').innerHTML - 1;
-function show(id) {
-  changeletter(Player1, lista[id].pos.p1.c1, "itm_1_1");
-  changeletter(Player1, lista[id].pos.p1.c2, "itm_1_2");
-  document.getElementById('preg_1').innerHTML = lista[id].pregunta;
+document.getElementById('enviarinfo').addEventListener('click', () => {
+  // let total = resval1 + resval2 + resval3 + resval4
+  let cualestamos = 0
+  let total = document.getElementById(`res1`).value;
+  let totalget = document.getElementById('respuestanow').innerHTML;
+  if (total == totalget) {
+
+    window.location = 'next'
 
 
 
-}
-show(track[0].actual);
-
-function pregunta() {
-  track[0].actual = 0;
-}
-
-function leer() {
-  track[0].actual = 0;
-}
 
 
+  }
+
+})
